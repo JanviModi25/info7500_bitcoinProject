@@ -5,7 +5,7 @@ const cors = require('cors'); // Import the CORS middleware
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Enable CORS for all routes
+// Enable CORS for all routes//
 app.use(cors());
 
 // Define the API endpoint URL
